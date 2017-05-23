@@ -1,0 +1,18 @@
+Il faut tout d'abord recupérer le corpus Penn Treebak:
+
+$ wget http://www.fit.vutbr.cz/~imikolov/rnnlm/simple-examples.tgz
+$ tar xvf simple-examples.tgz
+
+Pour lancer une exécution sur Penn Treebank:
+
+$ python ptb_word_lm.py --data_path=simple-examples/ptb/
+
+Les Flags importants sont:
+
+--model : choix de la taille du modèle
+--cell : choix du type de RNN
+--data_path : chemin des données
+
+Pour sauvegarder une exécution dans un fichier 'fichier.txt', ajouter en fin de la ligne de commande:
+
+> fichier.txt 2>&1

@@ -1,0 +1,574 @@
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcublas.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcudnn.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcufft.so locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcuda.so.1 locally
+I tensorflow/stream_executor/dso_loader.cc:105] successfully opened CUDA library libcurand.so locally
+I tensorflow/stream_executor/cuda/cuda_gpu_executor.cc:900] successful NUMA node read from SysFS had negative value (-1), but there must be at least one NUMA node, so returning NUMA node zero
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:102] Found device 0 with properties: 
+name: GeForce GTX 1070
+major: 6 minor: 1 memoryClockRate (GHz) 1.7715
+pciBusID 0000:01:00.0
+Total memory: 7.92GiB
+Free memory: 7.48GiB
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:126] DMA: 0 
+I tensorflow/core/common_runtime/gpu/gpu_init.cc:136] 0:   Y 
+I tensorflow/core/common_runtime/gpu/gpu_device.cc:717] Creating TensorFlow device (/gpu:0) -> (device: 0, name: GeForce GTX 1070, pci bus id: 0000:01:00.0)
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 1.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 2.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 4.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 8.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 16.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 32.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 64.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 128.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 256.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 512.0KiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 1.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 2.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 4.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 8.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 16.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 32.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 64.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 128.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 256.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 512.00MiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 1.00GiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 2.00GiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 4.00GiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:51] Creating bin of max chunk size 8.00GiB
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:73] Allocating 7.10GiB bytes.
+I tensorflow/core/common_runtime/gpu/gpu_bfc_allocator.cc:83] GPU 0 memory begins at 0x10209800000 extends to 0x103d0142667
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2349 get requests, put_count=2116 evicted_count=1000 eviction_rate=0.47259 and unsatisfied allocation rate=0.567476
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 100 to 110
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 2356 get requests, put_count=2468 evicted_count=1000 eviction_rate=0.405186 and unsatisfied allocation rate=0.386672
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 256 to 281
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:244] PoolAllocator: After 21204 get requests, put_count=21228 evicted_count=1000 eviction_rate=0.0471076 and unsatisfied allocation rate=0.0488115
+I tensorflow/core/common_runtime/gpu/pool_allocator.cc:256] Raising pool_size_limit_ from 655 to 720
+Type de cellules: simple
+Période: 1 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 3510.565 vitesse de traitement: 35120 wps
+0.117 perplexité: 1611.978 vitesse de traitement: 71387 wps
+0.217 perplexité: 1350.252 vitesse de traitement: 78925 wps
+0.317 perplexité: 1239.156 vitesse de traitement: 82111 wps
+0.417 perplexité: 1156.704 vitesse de traitement: 83906 wps
+0.517 perplexité: 1087.133 vitesse de traitement: 84991 wps
+0.617 perplexité: 1034.142 vitesse de traitement: 85782 wps
+0.717 perplexité: 977.356 vitesse de traitement: 86350 wps
+0.817 perplexité: 937.682 vitesse de traitement: 86797 wps
+0.917 perplexité: 900.042 vitesse de traitement: 87144 wps
+Période: 1 Perplexité sur données d'apprentissage: 874.195
+Période: 1 Perplexité sur données de validation: 567.246
+Période: 2 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 661.904 vitesse de traitement: 79494 wps
+0.117 perplexité: 599.788 vitesse de traitement: 88490 wps
+0.217 perplexité: 574.713 vitesse de traitement: 89290 wps
+0.317 perplexité: 566.525 vitesse de traitement: 89532 wps
+0.417 perplexité: 554.513 vitesse de traitement: 89719 wps
+0.517 perplexité: 539.604 vitesse de traitement: 89875 wps
+0.617 perplexité: 531.111 vitesse de traitement: 89973 wps
+0.717 perplexité: 515.316 vitesse de traitement: 90025 wps
+0.817 perplexité: 507.749 vitesse de traitement: 90028 wps
+0.917 perplexité: 497.990 vitesse de traitement: 90025 wps
+Période: 2 Perplexité sur données d'apprentissage: 492.582
+Période: 2 Perplexité sur données de validation: 364.214
+Période: 3 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 471.613 vitesse de traitement: 79830 wps
+0.117 perplexité: 419.271 vitesse de traitement: 88431 wps
+0.217 perplexité: 405.880 vitesse de traitement: 89289 wps
+0.317 perplexité: 405.359 vitesse de traitement: 89525 wps
+0.417 perplexité: 401.114 vitesse de traitement: 89715 wps
+0.517 perplexité: 393.571 vitesse de traitement: 89817 wps
+0.617 perplexité: 390.701 vitesse de traitement: 89929 wps
+0.717 perplexité: 382.772 vitesse de traitement: 89978 wps
+0.817 perplexité: 380.172 vitesse de traitement: 90006 wps
+0.917 perplexité: 375.904 vitesse de traitement: 90035 wps
+Période: 3 Perplexité sur données d'apprentissage: 374.566
+Période: 3 Perplexité sur données de validation: 300.101
+Période: 4 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 398.991 vitesse de traitement: 79895 wps
+0.117 perplexité: 349.472 vitesse de traitement: 88381 wps
+0.217 perplexité: 341.139 vitesse de traitement: 89250 wps
+0.317 perplexité: 341.989 vitesse de traitement: 89519 wps
+0.417 perplexité: 340.143 vitesse de traitement: 89753 wps
+0.517 perplexité: 335.834 vitesse de traitement: 89848 wps
+0.617 perplexité: 335.304 vitesse de traitement: 89894 wps
+0.717 perplexité: 329.492 vitesse de traitement: 89967 wps
+0.817 perplexité: 328.538 vitesse de traitement: 90046 wps
+0.917 perplexité: 325.901 vitesse de traitement: 90073 wps
+Période: 4 Perplexité sur données d'apprentissage: 325.729
+Période: 4 Perplexité sur données de validation: 270.333
+Période: 5 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 364.226 vitesse de traitement: 79633 wps
+0.117 perplexité: 315.006 vitesse de traitement: 88363 wps
+0.217 perplexité: 306.504 vitesse de traitement: 89155 wps
+0.317 perplexité: 308.415 vitesse de traitement: 89509 wps
+0.417 perplexité: 307.876 vitesse de traitement: 89716 wps
+0.517 perplexité: 304.172 vitesse de traitement: 89791 wps
+0.617 perplexité: 303.931 vitesse de traitement: 89844 wps
+0.717 perplexité: 299.113 vitesse de traitement: 89881 wps
+0.817 perplexité: 298.548 vitesse de traitement: 89945 wps
+0.917 perplexité: 296.597 vitesse de traitement: 89991 wps
+Période: 5 Perplexité sur données d'apprentissage: 297.090
+Période: 5 Perplexité sur données de validation: 252.648
+Période: 6 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 336.964 vitesse de traitement: 79511 wps
+0.117 perplexité: 290.355 vitesse de traitement: 88232 wps
+0.217 perplexité: 283.175 vitesse de traitement: 89223 wps
+0.317 perplexité: 286.543 vitesse de traitement: 89573 wps
+0.417 perplexité: 286.405 vitesse de traitement: 89760 wps
+0.517 perplexité: 283.490 vitesse de traitement: 89868 wps
+0.617 perplexité: 283.723 vitesse de traitement: 89942 wps
+0.717 perplexité: 279.904 vitesse de traitement: 90006 wps
+0.817 perplexité: 279.784 vitesse de traitement: 90034 wps
+0.917 perplexité: 278.177 vitesse de traitement: 90070 wps
+Période: 6 Perplexité sur données d'apprentissage: 278.960
+Période: 6 Perplexité sur données de validation: 248.101
+Période: 7 Vitesse d'apprentissage: 0.250
+0.017 perplexité: 320.908 vitesse de traitement: 79717 wps
+0.117 perplexité: 276.596 vitesse de traitement: 88430 wps
+0.217 perplexité: 269.619 vitesse de traitement: 89358 wps
+0.317 perplexité: 272.671 vitesse de traitement: 89634 wps
+0.417 perplexité: 272.887 vitesse de traitement: 89785 wps
+0.517 perplexité: 269.767 vitesse de traitement: 89869 wps
+0.617 perplexité: 269.848 vitesse de traitement: 89941 wps
+0.717 perplexité: 265.981 vitesse de traitement: 89965 wps
+0.817 perplexité: 265.821 vitesse de traitement: 89999 wps
+0.917 perplexité: 264.451 vitesse de traitement: 90058 wps
+Période: 7 Perplexité sur données d'apprentissage: 265.255
+Période: 7 Perplexité sur données de validation: 234.639
+Période: 8 Vitesse d'apprentissage: 0.200
+0.017 perplexité: 303.320 vitesse de traitement: 80031 wps
+0.117 perplexité: 255.817 vitesse de traitement: 88519 wps
+0.217 perplexité: 249.727 vitesse de traitement: 89367 wps
+0.317 perplexité: 252.713 vitesse de traitement: 89703 wps
+0.417 perplexité: 253.222 vitesse de traitement: 89843 wps
+0.517 perplexité: 250.480 vitesse de traitement: 89930 wps
+0.617 perplexité: 250.593 vitesse de traitement: 89979 wps
+0.717 perplexité: 246.910 vitesse de traitement: 90016 wps
+0.817 perplexité: 246.717 vitesse de traitement: 90055 wps
+0.917 perplexité: 245.412 vitesse de traitement: 90102 wps
+Période: 8 Perplexité sur données d'apprentissage: 246.230
+Période: 8 Perplexité sur données de validation: 219.161
+Période: 9 Vitesse d'apprentissage: 0.160
+0.017 perplexité: 283.228 vitesse de traitement: 79744 wps
+0.117 perplexité: 242.054 vitesse de traitement: 88448 wps
+0.217 perplexité: 235.354 vitesse de traitement: 89329 wps
+0.317 perplexité: 239.376 vitesse de traitement: 89588 wps
+0.417 perplexité: 239.464 vitesse de traitement: 89718 wps
+0.517 perplexité: 237.146 vitesse de traitement: 89835 wps
+0.617 perplexité: 237.295 vitesse de traitement: 89890 wps
+0.717 perplexité: 233.646 vitesse de traitement: 89945 wps
+0.817 perplexité: 233.739 vitesse de traitement: 89978 wps
+0.917 perplexité: 232.658 vitesse de traitement: 89987 wps
+Période: 9 Perplexité sur données d'apprentissage: 233.637
+Période: 9 Perplexité sur données de validation: 210.231
+Période: 10 Vitesse d'apprentissage: 0.128
+0.017 perplexité: 272.680 vitesse de traitement: 79764 wps
+0.117 perplexité: 232.095 vitesse de traitement: 88523 wps
+0.217 perplexité: 226.276 vitesse de traitement: 89332 wps
+0.317 perplexité: 229.307 vitesse de traitement: 89542 wps
+0.417 perplexité: 229.819 vitesse de traitement: 89700 wps
+0.517 perplexité: 227.699 vitesse de traitement: 89818 wps
+0.617 perplexité: 227.892 vitesse de traitement: 89866 wps
+0.717 perplexité: 224.649 vitesse de traitement: 89914 wps
+0.817 perplexité: 224.735 vitesse de traitement: 89935 wps
+0.917 perplexité: 223.765 vitesse de traitement: 89967 wps
+Période: 10 Perplexité sur données d'apprentissage: 224.618
+Période: 10 Perplexité sur données de validation: 202.869
+Période: 11 Vitesse d'apprentissage: 0.102
+0.017 perplexité: 266.866 vitesse de traitement: 79595 wps
+0.117 perplexité: 226.449 vitesse de traitement: 88331 wps
+0.217 perplexité: 220.604 vitesse de traitement: 89228 wps
+0.317 perplexité: 223.582 vitesse de traitement: 89491 wps
+0.417 perplexité: 224.111 vitesse de traitement: 89707 wps
+0.517 perplexité: 221.920 vitesse de traitement: 89837 wps
+0.617 perplexité: 221.887 vitesse de traitement: 89928 wps
+0.717 perplexité: 218.505 vitesse de traitement: 90001 wps
+0.817 perplexité: 218.493 vitesse de traitement: 90024 wps
+0.917 perplexité: 217.589 vitesse de traitement: 90030 wps
+Période: 11 Perplexité sur données d'apprentissage: 218.480
+Période: 11 Perplexité sur données de validation: 200.972
+Période: 12 Vitesse d'apprentissage: 0.082
+0.017 perplexité: 261.366 vitesse de traitement: 79436 wps
+0.117 perplexité: 221.162 vitesse de traitement: 88259 wps
+0.217 perplexité: 215.379 vitesse de traitement: 89108 wps
+0.317 perplexité: 218.164 vitesse de traitement: 89468 wps
+0.417 perplexité: 218.993 vitesse de traitement: 89668 wps
+0.517 perplexité: 217.050 vitesse de traitement: 89804 wps
+0.617 perplexité: 217.129 vitesse de traitement: 89858 wps
+0.717 perplexité: 213.766 vitesse de traitement: 89882 wps
+0.817 perplexité: 213.739 vitesse de traitement: 89931 wps
+0.917 perplexité: 212.936 vitesse de traitement: 89969 wps
+Période: 12 Perplexité sur données d'apprentissage: 213.905
+Période: 12 Perplexité sur données de validation: 196.242
+Période: 13 Vitesse d'apprentissage: 0.066
+0.017 perplexité: 255.453 vitesse de traitement: 79877 wps
+0.117 perplexité: 216.572 vitesse de traitement: 88269 wps
+0.217 perplexité: 211.314 vitesse de traitement: 89205 wps
+0.317 perplexité: 214.129 vitesse de traitement: 89464 wps
+0.417 perplexité: 214.720 vitesse de traitement: 89586 wps
+0.517 perplexité: 212.858 vitesse de traitement: 89685 wps
+0.617 perplexité: 213.001 vitesse de traitement: 89770 wps
+0.717 perplexité: 209.726 vitesse de traitement: 89814 wps
+0.817 perplexité: 209.868 vitesse de traitement: 89834 wps
+0.917 perplexité: 209.058 vitesse de traitement: 89886 wps
+Période: 13 Perplexité sur données d'apprentissage: 209.974
+Période: 13 Perplexité sur données de validation: 193.570
+Période: 14 Vitesse d'apprentissage: 0.052
+0.017 perplexité: 252.721 vitesse de traitement: 80005 wps
+0.117 perplexité: 214.560 vitesse de traitement: 88499 wps
+0.217 perplexité: 209.068 vitesse de traitement: 89318 wps
+0.317 perplexité: 211.579 vitesse de traitement: 89579 wps
+0.417 perplexité: 212.246 vitesse de traitement: 89713 wps
+0.517 perplexité: 210.421 vitesse de traitement: 89789 wps
+0.617 perplexité: 210.649 vitesse de traitement: 89805 wps
+0.717 perplexité: 207.284 vitesse de traitement: 89904 wps
+0.817 perplexité: 207.290 vitesse de traitement: 89972 wps
+0.917 perplexité: 206.500 vitesse de traitement: 90006 wps
+Période: 14 Perplexité sur données d'apprentissage: 207.405
+Période: 14 Perplexité sur données de validation: 190.792
+Période: 15 Vitesse d'apprentissage: 0.042
+0.017 perplexité: 248.212 vitesse de traitement: 79198 wps
+0.117 perplexité: 211.912 vitesse de traitement: 86642 wps
+0.217 perplexité: 207.099 vitesse de traitement: 86906 wps
+0.317 perplexité: 209.863 vitesse de traitement: 87521 wps
+0.417 perplexité: 210.349 vitesse de traitement: 87529 wps
+0.517 perplexité: 208.320 vitesse de traitement: 87419 wps
+0.617 perplexité: 208.423 vitesse de traitement: 87865 wps
+0.717 perplexité: 205.271 vitesse de traitement: 88209 wps
+0.817 perplexité: 205.369 vitesse de traitement: 88425 wps
+0.917 perplexité: 204.562 vitesse de traitement: 88615 wps
+Période: 15 Perplexité sur données d'apprentissage: 205.486
+Période: 15 Perplexité sur données de validation: 189.310
+Période: 16 Vitesse d'apprentissage: 0.034
+0.017 perplexité: 246.237 vitesse de traitement: 79803 wps
+0.117 perplexité: 210.526 vitesse de traitement: 88385 wps
+0.217 perplexité: 205.477 vitesse de traitement: 89326 wps
+0.317 perplexité: 207.905 vitesse de traitement: 89634 wps
+0.417 perplexité: 208.299 vitesse de traitement: 89766 wps
+0.517 perplexité: 206.395 vitesse de traitement: 89877 wps
+0.617 perplexité: 206.494 vitesse de traitement: 89960 wps
+0.717 perplexité: 203.352 vitesse de traitement: 90000 wps
+0.817 perplexité: 203.336 vitesse de traitement: 90038 wps
+0.917 perplexité: 202.594 vitesse de traitement: 90045 wps
+Période: 16 Perplexité sur données d'apprentissage: 203.522
+Période: 16 Perplexité sur données de validation: 189.092
+Période: 17 Vitesse d'apprentissage: 0.027
+0.017 perplexité: 245.800 vitesse de traitement: 79999 wps
+0.117 perplexité: 208.419 vitesse de traitement: 88316 wps
+0.217 perplexité: 203.658 vitesse de traitement: 89190 wps
+0.317 perplexité: 206.431 vitesse de traitement: 89513 wps
+0.417 perplexité: 206.922 vitesse de traitement: 89682 wps
+0.517 perplexité: 205.120 vitesse de traitement: 89781 wps
+0.617 perplexité: 205.260 vitesse de traitement: 89807 wps
+0.717 perplexité: 201.966 vitesse de traitement: 89854 wps
+0.817 perplexité: 202.043 vitesse de traitement: 89915 wps
+0.917 perplexité: 201.309 vitesse de traitement: 89962 wps
+Période: 17 Perplexité sur données d'apprentissage: 202.193
+Période: 17 Perplexité sur données de validation: 187.964
+Période: 18 Vitesse d'apprentissage: 0.021
+0.017 perplexité: 243.359 vitesse de traitement: 79213 wps
+0.117 perplexité: 207.313 vitesse de traitement: 88171 wps
+0.217 perplexité: 202.656 vitesse de traitement: 89147 wps
+0.317 perplexité: 205.333 vitesse de traitement: 89414 wps
+0.417 perplexité: 205.696 vitesse de traitement: 89598 wps
+0.517 perplexité: 203.833 vitesse de traitement: 89696 wps
+0.617 perplexité: 204.022 vitesse de traitement: 89718 wps
+0.717 perplexité: 200.900 vitesse de traitement: 89790 wps
+0.817 perplexité: 200.933 vitesse de traitement: 89813 wps
+0.917 perplexité: 200.222 vitesse de traitement: 89854 wps
+Période: 18 Perplexité sur données d'apprentissage: 201.124
+Période: 18 Perplexité sur données de validation: 186.639
+Période: 19 Vitesse d'apprentissage: 0.017
+0.017 perplexité: 242.150 vitesse de traitement: 79706 wps
+0.117 perplexité: 206.268 vitesse de traitement: 88398 wps
+0.217 perplexité: 201.212 vitesse de traitement: 89269 wps
+0.317 perplexité: 203.861 vitesse de traitement: 89575 wps
+0.417 perplexité: 204.507 vitesse de traitement: 89668 wps
+0.517 perplexité: 202.702 vitesse de traitement: 89779 wps
+0.617 perplexité: 202.813 vitesse de traitement: 89845 wps
+0.717 perplexité: 199.741 vitesse de traitement: 89887 wps
+0.817 perplexité: 199.862 vitesse de traitement: 89934 wps
+0.917 perplexité: 199.064 vitesse de traitement: 89966 wps
+Période: 19 Perplexité sur données d'apprentissage: 200.086
+Période: 19 Perplexité sur données de validation: 186.204
+Période: 20 Vitesse d'apprentissage: 0.014
+0.017 perplexité: 240.166 vitesse de traitement: 79582 wps
+0.117 perplexité: 205.687 vitesse de traitement: 88352 wps
+0.217 perplexité: 200.418 vitesse de traitement: 89206 wps
+0.317 perplexité: 203.101 vitesse de traitement: 89510 wps
+0.417 perplexité: 203.748 vitesse de traitement: 89710 wps
+0.517 perplexité: 201.901 vitesse de traitement: 89807 wps
+0.617 perplexité: 202.052 vitesse de traitement: 89875 wps
+0.717 perplexité: 198.908 vitesse de traitement: 89901 wps
+0.817 perplexité: 198.896 vitesse de traitement: 89932 wps
+0.917 perplexité: 198.137 vitesse de traitement: 89973 wps
+Période: 20 Perplexité sur données d'apprentissage: 199.075
+Période: 20 Perplexité sur données de validation: 185.817
+Période: 21 Vitesse d'apprentissage: 0.011
+0.017 perplexité: 239.670 vitesse de traitement: 79603 wps
+0.117 perplexité: 204.461 vitesse de traitement: 88253 wps
+0.217 perplexité: 199.788 vitesse de traitement: 89104 wps
+0.317 perplexité: 202.639 vitesse de traitement: 89474 wps
+0.417 perplexité: 203.294 vitesse de traitement: 89655 wps
+0.517 perplexité: 201.494 vitesse de traitement: 89742 wps
+0.617 perplexité: 201.578 vitesse de traitement: 89750 wps
+0.717 perplexité: 198.372 vitesse de traitement: 89771 wps
+0.817 perplexité: 198.521 vitesse de traitement: 89818 wps
+0.917 perplexité: 197.905 vitesse de traitement: 89842 wps
+Période: 21 Perplexité sur données d'apprentissage: 198.784
+Période: 21 Perplexité sur données de validation: 185.417
+Période: 22 Vitesse d'apprentissage: 0.009
+0.017 perplexité: 241.623 vitesse de traitement: 78822 wps
+0.117 perplexité: 205.326 vitesse de traitement: 88099 wps
+0.217 perplexité: 200.103 vitesse de traitement: 89162 wps
+0.317 perplexité: 202.724 vitesse de traitement: 89419 wps
+0.417 perplexité: 203.132 vitesse de traitement: 89649 wps
+0.517 perplexité: 201.288 vitesse de traitement: 89721 wps
+0.617 perplexité: 201.367 vitesse de traitement: 89791 wps
+0.717 perplexité: 198.211 vitesse de traitement: 89815 wps
+0.817 perplexité: 198.346 vitesse de traitement: 89854 wps
+0.917 perplexité: 197.632 vitesse de traitement: 89857 wps
+Période: 22 Perplexité sur données d'apprentissage: 198.505
+Période: 22 Perplexité sur données de validation: 184.997
+Période: 23 Vitesse d'apprentissage: 0.007
+0.017 perplexité: 238.255 vitesse de traitement: 79585 wps
+0.117 perplexité: 203.707 vitesse de traitement: 88523 wps
+0.217 perplexité: 199.052 vitesse de traitement: 89267 wps
+0.317 perplexité: 201.568 vitesse de traitement: 89640 wps
+0.417 perplexité: 202.375 vitesse de traitement: 89791 wps
+0.517 perplexité: 200.526 vitesse de traitement: 89878 wps
+0.617 perplexité: 200.616 vitesse de traitement: 89938 wps
+0.717 perplexité: 197.628 vitesse de traitement: 90011 wps
+0.817 perplexité: 197.780 vitesse de traitement: 90035 wps
+0.917 perplexité: 196.958 vitesse de traitement: 90076 wps
+Période: 23 Perplexité sur données d'apprentissage: 197.844
+Période: 23 Perplexité sur données de validation: 184.825
+Période: 24 Vitesse d'apprentissage: 0.006
+0.017 perplexité: 237.589 vitesse de traitement: 79697 wps
+0.117 perplexité: 204.103 vitesse de traitement: 88584 wps
+0.217 perplexité: 199.184 vitesse de traitement: 89231 wps
+0.317 perplexité: 201.949 vitesse de traitement: 89554 wps
+0.417 perplexité: 202.395 vitesse de traitement: 89733 wps
+0.517 perplexité: 200.492 vitesse de traitement: 89823 wps
+0.617 perplexité: 200.580 vitesse de traitement: 89897 wps
+0.717 perplexité: 197.450 vitesse de traitement: 89942 wps
+0.817 perplexité: 197.570 vitesse de traitement: 89957 wps
+0.917 perplexité: 196.816 vitesse de traitement: 89984 wps
+Période: 24 Perplexité sur données d'apprentissage: 197.724
+Période: 24 Perplexité sur données de validation: 184.652
+Période: 25 Vitesse d'apprentissage: 0.005
+0.017 perplexité: 238.618 vitesse de traitement: 79511 wps
+0.117 perplexité: 203.519 vitesse de traitement: 88294 wps
+0.217 perplexité: 198.445 vitesse de traitement: 89205 wps
+0.317 perplexité: 201.154 vitesse de traitement: 89512 wps
+0.417 perplexité: 201.853 vitesse de traitement: 89655 wps
+0.517 perplexité: 199.974 vitesse de traitement: 89761 wps
+0.617 perplexité: 200.161 vitesse de traitement: 89862 wps
+0.717 perplexité: 197.119 vitesse de traitement: 89919 wps
+0.817 perplexité: 197.250 vitesse de traitement: 89990 wps
+0.917 perplexité: 196.540 vitesse de traitement: 90024 wps
+Période: 25 Perplexité sur données d'apprentissage: 197.490
+Période: 25 Perplexité sur données de validation: 184.392
+Période: 26 Vitesse d'apprentissage: 0.004
+0.017 perplexité: 237.003 vitesse de traitement: 79511 wps
+0.117 perplexité: 202.732 vitesse de traitement: 88189 wps
+0.217 perplexité: 198.131 vitesse de traitement: 89152 wps
+0.317 perplexité: 200.763 vitesse de traitement: 89477 wps
+0.417 perplexité: 201.357 vitesse de traitement: 89635 wps
+0.517 perplexité: 199.612 vitesse de traitement: 89759 wps
+0.617 perplexité: 199.797 vitesse de traitement: 89819 wps
+0.717 perplexité: 196.700 vitesse de traitement: 89862 wps
+0.817 perplexité: 196.884 vitesse de traitement: 89916 wps
+0.917 perplexité: 196.221 vitesse de traitement: 89924 wps
+Période: 26 Perplexité sur données d'apprentissage: 197.156
+Période: 26 Perplexité sur données de validation: 184.502
+Période: 27 Vitesse d'apprentissage: 0.003
+0.017 perplexité: 238.573 vitesse de traitement: 79613 wps
+0.117 perplexité: 202.808 vitesse de traitement: 88150 wps
+0.217 perplexité: 198.272 vitesse de traitement: 89056 wps
+0.317 perplexité: 200.954 vitesse de traitement: 89324 wps
+0.417 perplexité: 201.590 vitesse de traitement: 89484 wps
+0.517 perplexité: 199.873 vitesse de traitement: 89585 wps
+0.617 perplexité: 200.028 vitesse de traitement: 89694 wps
+0.717 perplexité: 196.878 vitesse de traitement: 89731 wps
+0.817 perplexité: 197.021 vitesse de traitement: 89778 wps
+0.917 perplexité: 196.312 vitesse de traitement: 89826 wps
+Période: 27 Perplexité sur données d'apprentissage: 197.150
+Période: 27 Perplexité sur données de validation: 184.249
+Période: 28 Vitesse d'apprentissage: 0.002
+0.017 perplexité: 239.923 vitesse de traitement: 79604 wps
+0.117 perplexité: 202.992 vitesse de traitement: 88103 wps
+0.217 perplexité: 198.003 vitesse de traitement: 88932 wps
+0.317 perplexité: 200.696 vitesse de traitement: 89287 wps
+0.417 perplexité: 201.131 vitesse de traitement: 89446 wps
+0.517 perplexité: 199.453 vitesse de traitement: 89626 wps
+0.617 perplexité: 199.727 vitesse de traitement: 89712 wps
+0.717 perplexité: 196.612 vitesse de traitement: 89775 wps
+0.817 perplexité: 196.814 vitesse de traitement: 89796 wps
+0.917 perplexité: 196.080 vitesse de traitement: 89837 wps
+Période: 28 Perplexité sur données d'apprentissage: 197.016
+Période: 28 Perplexité sur données de validation: 184.166
+Période: 29 Vitesse d'apprentissage: 0.002
+0.017 perplexité: 240.018 vitesse de traitement: 79352 wps
+0.117 perplexité: 203.228 vitesse de traitement: 88084 wps
+0.217 perplexité: 198.499 vitesse de traitement: 89046 wps
+0.317 perplexité: 201.029 vitesse de traitement: 89308 wps
+0.417 perplexité: 201.564 vitesse de traitement: 89486 wps
+0.517 perplexité: 199.764 vitesse de traitement: 89608 wps
+0.617 perplexité: 199.847 vitesse de traitement: 89683 wps
+0.717 perplexité: 196.631 vitesse de traitement: 89762 wps
+0.817 perplexité: 196.776 vitesse de traitement: 89819 wps
+0.917 perplexité: 196.091 vitesse de traitement: 89844 wps
+Période: 29 Perplexité sur données d'apprentissage: 196.929
+Période: 29 Perplexité sur données de validation: 184.267
+Période: 30 Vitesse d'apprentissage: 0.001
+0.017 perplexité: 239.150 vitesse de traitement: 79486 wps
+0.117 perplexité: 202.845 vitesse de traitement: 88267 wps
+0.217 perplexité: 198.205 vitesse de traitement: 89133 wps
+0.317 perplexité: 200.717 vitesse de traitement: 89474 wps
+0.417 perplexité: 201.281 vitesse de traitement: 89638 wps
+0.517 perplexité: 199.399 vitesse de traitement: 89775 wps
+0.617 perplexité: 199.515 vitesse de traitement: 89843 wps
+0.717 perplexité: 196.392 vitesse de traitement: 89945 wps
+0.817 perplexité: 196.599 vitesse de traitement: 89978 wps
+0.917 perplexité: 195.920 vitesse de traitement: 89981 wps
+Période: 30 Perplexité sur données d'apprentissage: 196.848
+Période: 30 Perplexité sur données de validation: 184.186
+Période: 31 Vitesse d'apprentissage: 0.001
+0.017 perplexité: 236.904 vitesse de traitement: 80492 wps
+0.117 perplexité: 202.422 vitesse de traitement: 88440 wps
+0.217 perplexité: 197.883 vitesse de traitement: 89220 wps
+0.317 perplexité: 200.660 vitesse de traitement: 89496 wps
+0.417 perplexité: 201.316 vitesse de traitement: 89660 wps
+0.517 perplexité: 199.441 vitesse de traitement: 89762 wps
+0.617 perplexité: 199.464 vitesse de traitement: 89820 wps
+0.717 perplexité: 196.410 vitesse de traitement: 89884 wps
+0.817 perplexité: 196.539 vitesse de traitement: 89939 wps
+0.917 perplexité: 195.778 vitesse de traitement: 89942 wps
+Période: 31 Perplexité sur données d'apprentissage: 196.660
+Période: 31 Perplexité sur données de validation: 184.118
+Période: 32 Vitesse d'apprentissage: 0.001
+0.017 perplexité: 238.864 vitesse de traitement: 79737 wps
+0.117 perplexité: 203.324 vitesse de traitement: 87960 wps
+0.217 perplexité: 198.324 vitesse de traitement: 89053 wps
+0.317 perplexité: 200.798 vitesse de traitement: 89365 wps
+0.417 perplexité: 201.338 vitesse de traitement: 89625 wps
+0.517 perplexité: 199.513 vitesse de traitement: 89697 wps
+0.617 perplexité: 199.689 vitesse de traitement: 89775 wps
+0.717 perplexité: 196.490 vitesse de traitement: 89737 wps
+0.817 perplexité: 196.599 vitesse de traitement: 89794 wps
+0.917 perplexité: 195.862 vitesse de traitement: 89816 wps
+Période: 32 Perplexité sur données d'apprentissage: 196.783
+Période: 32 Perplexité sur données de validation: 184.032
+Période: 33 Vitesse d'apprentissage: 0.001
+0.017 perplexité: 237.137 vitesse de traitement: 79467 wps
+0.117 perplexité: 203.239 vitesse de traitement: 88273 wps
+0.217 perplexité: 198.147 vitesse de traitement: 89043 wps
+0.317 perplexité: 200.569 vitesse de traitement: 89356 wps
+0.417 perplexité: 201.271 vitesse de traitement: 89546 wps
+0.517 perplexité: 199.520 vitesse de traitement: 89672 wps
+0.617 perplexité: 199.506 vitesse de traitement: 89781 wps
+0.717 perplexité: 196.357 vitesse de traitement: 89824 wps
+0.817 perplexité: 196.458 vitesse de traitement: 89880 wps
+0.917 perplexité: 195.765 vitesse de traitement: 89921 wps
+Période: 33 Perplexité sur données d'apprentissage: 196.671
+Période: 33 Perplexité sur données de validation: 183.990
+Période: 34 Vitesse d'apprentissage: 0.001
+0.017 perplexité: 237.887 vitesse de traitement: 79305 wps
+0.117 perplexité: 202.401 vitesse de traitement: 88356 wps
+0.217 perplexité: 197.705 vitesse de traitement: 89196 wps
+0.317 perplexité: 200.209 vitesse de traitement: 89610 wps
+0.417 perplexité: 200.938 vitesse de traitement: 89738 wps
+0.517 perplexité: 199.156 vitesse de traitement: 89829 wps
+0.617 perplexité: 199.349 vitesse de traitement: 89891 wps
+0.717 perplexité: 196.242 vitesse de traitement: 89945 wps
+0.817 perplexité: 196.481 vitesse de traitement: 90008 wps
+0.917 perplexité: 195.827 vitesse de traitement: 90046 wps
+Période: 34 Perplexité sur données d'apprentissage: 196.788
+Période: 34 Perplexité sur données de validation: 184.085
+Période: 35 Vitesse d'apprentissage: 0.000
+0.017 perplexité: 235.943 vitesse de traitement: 80243 wps
+0.117 perplexité: 202.182 vitesse de traitement: 88532 wps
+0.217 perplexité: 197.651 vitesse de traitement: 89265 wps
+0.317 perplexité: 200.323 vitesse de traitement: 89604 wps
+0.417 perplexité: 200.909 vitesse de traitement: 89786 wps
+0.517 perplexité: 199.264 vitesse de traitement: 89903 wps
+0.617 perplexité: 199.469 vitesse de traitement: 89938 wps
+0.717 perplexité: 196.399 vitesse de traitement: 89978 wps
+0.817 perplexité: 196.523 vitesse de traitement: 89996 wps
+0.917 perplexité: 195.826 vitesse de traitement: 90017 wps
+Période: 35 Perplexité sur données d'apprentissage: 196.747
+Période: 35 Perplexité sur données de validation: 183.943
+Période: 36 Vitesse d'apprentissage: 0.000
+0.017 perplexité: 238.705 vitesse de traitement: 79580 wps
+0.117 perplexité: 203.054 vitesse de traitement: 88330 wps
+0.217 perplexité: 198.136 vitesse de traitement: 89300 wps
+0.317 perplexité: 200.614 vitesse de traitement: 89545 wps
+0.417 perplexité: 201.282 vitesse de traitement: 89723 wps
+0.517 perplexité: 199.485 vitesse de traitement: 89834 wps
+0.617 perplexité: 199.634 vitesse de traitement: 89953 wps
+0.717 perplexité: 196.511 vitesse de traitement: 90018 wps
+0.817 perplexité: 196.681 vitesse de traitement: 90064 wps
+0.917 perplexité: 195.905 vitesse de traitement: 90072 wps
+Période: 36 Perplexité sur données d'apprentissage: 196.813
+Période: 36 Perplexité sur données de validation: 183.993
+Période: 37 Vitesse d'apprentissage: 0.000
+0.017 perplexité: 237.888 vitesse de traitement: 79802 wps
+0.117 perplexité: 202.659 vitesse de traitement: 88463 wps
+0.217 perplexité: 197.900 vitesse de traitement: 89283 wps
+0.317 perplexité: 200.323 vitesse de traitement: 89663 wps
+0.417 perplexité: 200.952 vitesse de traitement: 89785 wps
+0.517 perplexité: 199.247 vitesse de traitement: 89844 wps
+0.617 perplexité: 199.524 vitesse de traitement: 89933 wps
+0.717 perplexité: 196.372 vitesse de traitement: 89983 wps
+0.817 perplexité: 196.447 vitesse de traitement: 90058 wps
+0.917 perplexité: 195.748 vitesse de traitement: 90095 wps
+Période: 37 Perplexité sur données d'apprentissage: 196.682
+Période: 37 Perplexité sur données de validation: 183.908
+Période: 38 Vitesse d'apprentissage: 0.000
+0.017 perplexité: 236.865 vitesse de traitement: 79458 wps
+0.117 perplexité: 201.865 vitesse de traitement: 88210 wps
+0.217 perplexité: 197.440 vitesse de traitement: 89111 wps
+0.317 perplexité: 200.007 vitesse de traitement: 89466 wps
+0.417 perplexité: 200.596 vitesse de traitement: 89627 wps
+0.517 perplexité: 198.753 vitesse de traitement: 89735 wps
+0.617 perplexité: 199.078 vitesse de traitement: 89669 wps
+0.717 perplexité: 195.993 vitesse de traitement: 89716 wps
+0.817 perplexité: 196.154 vitesse de traitement: 89771 wps
+0.917 perplexité: 195.482 vitesse de traitement: 89801 wps
+Période: 38 Perplexité sur données d'apprentissage: 196.413
+Période: 38 Perplexité sur données de validation: 183.875
+Période: 39 Vitesse d'apprentissage: 0.000
+0.017 perplexité: 238.156 vitesse de traitement: 79780 wps
+0.117 perplexité: 202.447 vitesse de traitement: 88491 wps
+0.217 perplexité: 198.124 vitesse de traitement: 89351 wps
+0.317 perplexité: 200.828 vitesse de traitement: 89520 wps
+0.417 perplexité: 201.387 vitesse de traitement: 89638 wps
+0.517 perplexité: 199.567 vitesse de traitement: 89750 wps
+0.617 perplexité: 199.604 vitesse de traitement: 89823 wps
+0.717 perplexité: 196.533 vitesse de traitement: 89863 wps
+0.817 perplexité: 196.694 vitesse de traitement: 89906 wps
+0.917 perplexité: 196.005 vitesse de traitement: 89931 wps
+Période: 39 Perplexité sur données d'apprentissage: 196.956
+Période: 39 Perplexité sur données de validation: 183.919
+Perplexité sur données de test: 175.402
+Temps d'execution: 453.054
+
+class MediumConfig(object):
+  """Réseau moyen"""
+  init_scale = 0.05
+  learning_rate = 0.25
+  max_grad_norm = 5
+  num_layers = 1
+  num_steps = 50
+  hidden_size = 100#650
+  context_size = 40#160
+  alpha = 0.95
+  max_epoch = 6
+  max_max_epoch = 39
+  keep_prob = 0.5
+  lr_decay = 0.8
+  batch_size = 32
+  vocab_size = 10000
